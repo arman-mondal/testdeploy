@@ -63,7 +63,7 @@ function Home() {
           alert("Please upload both profile image and biometric image.")
         }
 
-        fetch('http://localhost:3000/submit', {
+        fetch('https://testserver.techarman.me/submit', {
             method: 'POST',
             body: formData
         })
